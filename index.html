@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb House Calendar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fefefe;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff69b4;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: white;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .calendar-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .calendar {
+            background-color: #ffd700;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .calendar h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Airbnb House Calendar</h1>
+    </header>
+    <main>
+        <section class="calendar-row">
+            <div class="calendar">
+                <h2>The Middle Room 🏠</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=eju7ulkosnbprm31dinihokokr0qlr4b%40import.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+            </div>
+            <div class="calendar">
+                <h2>The Fountain Room 🌴</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=6s21ebv5jqvjhjce2ru51lfb3b9a86lg%40import.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+            </div>
+            <div class="calendar">
+                <h2>The Pineapple Room 🍍</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=739ern1gsfi1pa4qpqj52k89933irean%40import.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+            </div>
+            <div class="calendar">
+                <h2>The Harry Potter Room ⚡</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=7t703bc709ka1mop4om8tt2ve0snverj%40import.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+            </div>
+            <div class="calendar">
+                <h2>The Tucked Away Room 🌳</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=s59n9idcmgkonisv277e1ss7nis72gei%40import.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+            </div>
+            <div class="calendar">
+                <h2>The Lil Kitchen Room 🍽️</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=qp9g5t7q73d0i935mh6l93r1n5n3ohvi%40import.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+            </div>
+            <div class="calendar">
+                <h2>The Back Room 🚪</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=7cdagntvhu50qdftsf46gu6sn90prp1n%40import.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+            </div>
+            <div class="calendar">
+                <h2>Rotating Room #1 🛏️</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=s8r6o5ie37djdl8hnpehkhtbjvrlvdgl%40import.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+            </div>
+            <div class="calendar">
+                <h2>Rotating Room #2 🔄</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=nk3eqdimd5e4sps2td85p3s49tnfjbsd%40import.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
